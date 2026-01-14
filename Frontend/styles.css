@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #0f172a; /* dark slate */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
+
+.app-container {
+    width: 360px;
+    background: #020617; /* near black */
+    border-radius: 14px;
+    padding: 28px 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.app-header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f8fafc;
+    margin-bottom: 4px;
+}
+
+.app-header p {
+    font-size: 13px;
+    color: #94a3b8;
+    margin-bottom: 22px;
+}
+
+.search-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.search-section input {
+    flex: 1;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #1e293b;
+    background: #020617;
+    color: #f8fafc;
+    font-size: 14px;
+    outline: none;
+}
+
+.search-section input::placeholder {
+    color: #64748b;
+}
+
+.search-section input:focus {
+    border-color: #38bdf8;
+}
+
+.search-section button {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    background: #38bdf8;
+    color: #020617;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.search-section button:hover {
+    background: #0ea5e9;
+}
+
+.error-message {
+    color: #f87171;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.result-section {
+    margin-top: 10px;
+    padding-top: 12px;
+    border-top: 1px solid #1e293b;
+}
+
+.result-section h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #f8fafc;
+    margin-bottom: 6px;
+}
+
+.result-section p {
+    font-size: 14px;
+    color: #cbd5f5;
+    margin: 4px 0;
+}
